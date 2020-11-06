@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.start-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-container button {
+    width: 200px;
+    height: 60px;
+    background-color: #8f46;
+    border: #8f46;
+    font-size: 20px;
+}
+.start-container button:hover {
+    cursor: pointer;
+}
+.quiz-box {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: #5432;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+.quiz-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.quiz-options {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.option-container {
+    background-color: #8346;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option {
+    color: #fff;
+    background-color: #8346;
+    opacity: 1;
+    border: none;
+    font-size: 15px;
+    width: 40%;
+    height: 100%;
+    margin-top: 10px;
+}
+.option:hover {
+    cursor: pointer;
+}
+.score {
+    margin-top: 20px;
+}
+.skip {
+    color: #fff;
+    background-color: #3425;
+    border: #3425;
+    padding: 20px;
+    margin-top: 10px;
+}
+.restart {
+    width: 800px;
+    height: 400px;
+    background-color: #f87616;
+    display: none;
+    margin: 0 auto;
+}
+.restart p {
+    text-align: center;
+    padding-top: 10%;
+}
+.b-container {
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 10%;
+}
+.restart button {
+    width: 200px;
+    height: 60px;
+    background-color: #8f46;
+    border: #8f46;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.restart button:hover {
+    cursor: pointer;
+}
+.congratulation {
+    width: 100vw;
+    height: 100vh;
+    background-color: #456a;
+    display: none;
+}

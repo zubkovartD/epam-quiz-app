@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start-container" id='start-container'>
+    <button id='start'>Start</button>
+  </div>
+  <div class="quiz-box" id='quiz-box'>
+    <p class="quiz-title" id='quiz-title' role="heading"></p>
+    <div class="quiz-body" id='quiz-body'>
+      <div id='display-container'>
+<!--       <div class="option-container"><button id="option" class="option"></button></div>
+      <div class="option-container"><button id="option" class="option"></button></div>
+      <div class="option-container"><button id="option" class="option"></button></div>
+      <div class="option-container"><button id="option" class="option"></button></div> -->
+      
+      <div class="option" data-index='0'></div>
+      <div class="option" data-index='1'></div>
+      <div class="option" data-index='2'></div>
+      <div class="option" data-index='3'></div>
+      </div>
+      
+      <div class="score">
+        <p>Total prize: <span id="total"></span></p>
+        <p>Prize on current round: <span id="current"></span></p>
+        <button class='skip'id='skip'>Skip question</button>
+      </div>
+    </div>
+    <button id='next'>Next</button>
+  </div>
+  <div class="restart" id="restart-block">
+    <p>You are lose. Do you want to play again? Your score is <span id='lose'></span></p>
+    <div class="b-container">
+      <button id='restart'>Restart</button>
+    </div>
+  </div>
+  <div class="congratulation" id="congratulation">
+    <h1>WOW, YOU HAVE WON. NOICE. YOUR SCORE IS <span id='won'></span></h1>
+  </div>
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
